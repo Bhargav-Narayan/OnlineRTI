@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Inconsolata', ;
+    color: #ff4d4d;
+    text-shadow: 0 5px 7px rgba(0, 0, 0, 0.9);
+    font-size: 50px;
+}
+
+#details {
+	margin: 20px 0 0 30px;
+}
+
+.tableDiv {
+	margin-top: 20px;
+}
+
+.search {
+	float: right;
+	margin: 10px 30px 20px 0;
+}
+
+#individual {
+	margin: 10px 0 10px 0;
+}

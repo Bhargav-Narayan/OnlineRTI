@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Management</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>Student Management System</h1>
+	<h3>Please enter the details of a student</h3>
+	<a href="/home" id="home">Home</a>
+	<a href="/details" id="details">Click here to view details of all students</a>
+	<div class="wrapping">		
+		<label for="stuName">Name</label>
+		<input type="text" name="stuName" id="Sname" required="" class="form-control"> <br />
+		<label for="stuId">USN</label>
+		<input type="text" name="stuId" id="SId" required="" class="form-control"> <br />
+		<label for="stuEmail">Email ID</label>
+		<input type="text" name="stuEmail" id="SEmail" required="" class="form-control"> <br />
+		<label for="stuPhone">Phone Number</label>
+		<input type="text" name="stuPhone" id="SPhone" required="" class="form-control">	<br />	
+		<label for="stuSem">Semester</label>
+		<input type="text" name="stuSem" id="SSem" required="" class="form-control"> <br />
+		<label for="stuDept">Department</label>
+		<input type="text" name="stuDept" id="SDept" required="" class="form-control"> <br />
+		<label for="stuAggr">Overall Grade</label>
+		<input type="text" name="stuAggr" id="SGrade" class="form-control"> <br />
+		<button type="submit" class="btn btn-success" name="submit" id="Submit"> Submit </button> 
+	<p id="res">
+	</p>
+</div>
+	<script type="text/javascript" src="script/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="script/index.js"></script>
+</body>
+</html>
